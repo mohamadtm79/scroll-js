@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 2000px;
+  background-color: black;
+}
+
+section {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 750px;
+}
+section > img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 101%;
+}
+
+div > p {
+  font-size: 36px;
+  margin-top: 27px;
+  letter-spacing: 8px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */

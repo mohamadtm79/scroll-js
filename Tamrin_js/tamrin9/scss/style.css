@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  height: 200vh;
+  background-color: black;
+}
+
+p {
+  color: #fff;
+  position: absolute;
+  font-size: 31px;
+  letter-spacing: 3px;
+  margin-top: 4%;
+}
+
+div {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../../tamrin8/img/1.png);
+  background-size: cover;
+}
+div .container {
+  position: absolute;
+  bottom: -35%;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 35%;
+  left: 0;
+  transform: skewY(-10deg);
+  transform-origin: top left;
+}/*# sourceMappingURL=style.css.map */
